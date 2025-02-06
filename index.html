@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мастер Маникюра</title>
+    <style>
+        body { font-family: 'Helvetica Neue', sans-serif; margin: 0; padding: 0; color: #333; background: #fff; }
+        header { background: #F8BBD0; padding: 20px; text-align: center; font-size: 24px; font-weight: bold; }
+        .container { padding: 60px 20px; max-width: 1200px; margin: auto; text-align: center; }
+        .button { background: #D81B60; color: white; padding: 12px 24px; border: none; border-radius: 5px; cursor: pointer; font-size: 16px; transition: 0.3s; }
+        .button:hover { background: #AD1457; }
+        .section { margin: 60px 0; padding: 40px; border-radius: 10px; }
+        .services { background: #FCE4EC; }
+        .form { background: #F06292; color: white; }
+        .form input { padding: 10px; width: 80%; max-width: 400px; margin: 10px 0; border: none; border-radius: 5px; }
+        .gallery img { width: 100%; max-width: 400px; border-radius: 10px; margin: 10px; }
+        .schedule { background: #FCE4EC; padding: 40px; text-align: center; }
+        .schedule table { width: 100%; max-width: 600px; margin: auto; border-collapse: collapse; }
+        .schedule th, .schedule td { padding: 10px; border: 1px solid #D81B60; text-align: center; }
+        .schedule th { background: #D81B60; color: white; }
+    </style>
+</head>
+<body>
+    <header>Мастер Маникюра</header>
+    
+    <div class="container">
+        <h1>Красота и уход за ногтями</h1>
+        <p>Современные тренды, безопасные материалы и уникальный стиль</p>
+        <button class="button">Записаться на сеанс</button>
+    </div>
+    
+    <div class="section services">
+        <h2>Наши услуги</h2>
+        <p>Классический и аппаратный маникюр • Гель-лак • Дизайн ногтей • SPA-уход</p>
+    </div>
+    
+    <div class="section gallery">
+        <h2>Галерея работ</h2>
+        <img src="nail1.jpg" alt="Маникюр 1">
+        <img src="nail2.jpg" alt="Маникюр 2">
+        <img src="nail3.jpg" alt="Маникюр 3">
+    </div>
+    
+    <div class="section schedule">
+        <h2>График работы</h2>
+        <table>
+            <tr>
+                <th>День</th>
+                <th>Часы работы</th>
+            </tr>
+            <tr>
+                <td>Понедельник - Пятница</td>
+                <td>10:00 - 20:00</td>
+            </tr>
+            <tr>
+                <td>Суббота</td>
+                <td>11:00 - 18:00</td>
+            </tr>
+            <tr>
+                <td>Воскресенье</td>
+                <td>Выходной</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="section form">
+        <h2>Запишитесь на сеанс</h2>
+        <form>
+            <input type="text" placeholder="Ваше имя" required><br>
+            <input type="tel" placeholder="Ваш телефон" required><br>
+            <button class="button">Оставить заявку</button>
+        </form>
+    </div>
+</body>
+</html>
